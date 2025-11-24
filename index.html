@@ -13,7 +13,6 @@
             box-sizing: border-box;
         }
 
-
         /* ESTILO DO CORPO - PAPEL ANTIGO */
         body {
             font-family: 'Georgia', serif;
@@ -21,7 +20,6 @@
             color: #333;
             line-height: 1.6;
         }
-
 
         /* CABEÇALHO */
         header {
@@ -32,12 +30,10 @@
             border-bottom: 5px solid #a37b4a;
         }
 
-
         header h1 {
             font-size: 2.5em;
             margin-bottom: 5px;
         }
-
 
         /* NAVEGAÇÃO */
         nav {
@@ -46,7 +42,6 @@
             background-color: #e0d9c4;
             box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
         }
-
 
         nav a {
             display: inline-block;
@@ -57,11 +52,9 @@
             transition: background-color 0.3s;
         }
 
-
         nav a:hover {
             background-color: #c9c1b0;
         }
-
 
         /* CONTEÚDO */
         main {
@@ -73,19 +66,16 @@
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.05);
         }
 
-
         section {
             padding: 20px 0;
             border-bottom: 1px dashed #ccc;
             margin-bottom: 30px;
         }
 
-
         section:last-child {
             border-bottom: none;
             margin-bottom: 0;
         }
-
 
         h2 {
             color: #a37b4a;
@@ -94,12 +84,10 @@
             padding-bottom: 5px;
         }
 
-
         h3 {
             margin-top: 25px;
             color: #4a2c1e;
         }
-
 
         /* CARDS */
         .card-evento {
@@ -111,12 +99,10 @@
             box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.05);
         }
 
-
         .card-evento h4 {
             margin-top: 0;
             color: #4a2c1e;
         }
-
 
         /* BOTÃO PARA PRÓXIMA PÁGINA */
         .botao-proxima-pagina {
@@ -134,11 +120,9 @@
             transition: 0.3s;
         }
 
-
         .botao-proxima-pagina:hover {
             background-color: #8b653f;
         }
-
 
         /* RODAPÉ */
         footer {
@@ -153,12 +137,10 @@
 </head>
 <body>
 
-
     <header>
         <h1>História Global</h1>
         <p>A Jornada da Humanidade através dos Séculos</p>
     </header>
-
 
     <nav>
         <a href="#antiga">Antiga</a>
@@ -167,68 +149,110 @@
         <a href="#contemporanea">Contemporânea</a>
     </nav>
 
-
     <main>
 
-
+        <!-- ANTIGUIDADE -->
         <section id="antiga">
             <h2>🌍 Antiguidade (c. 3000 a.C. - 476 d.C.)</h2>
-            <p>O berço das civilizações...</p>
-
+            <p>O período que marca o surgimento das primeiras civilizações, da escrita e das bases culturais do mundo atual.</p>
 
             <h3>Eventos Chave</h3>
 
-
             <div class="card-evento">
                 <h4>Invenção da Escrita</h4>
-                <p>c. 3200 a.C.</p>
+                <p>c. 3200 a.C. — Criada na Mesopotâmia, permitiu registrar informações e desenvolver sociedades complexas.</p>
             </div>
-
 
             <div class="card-evento">
                 <h4>Apogeu da Democracia Ateniense</h4>
-                <p>Século V a.C.</p>
+                <p>Século V a.C. — Atenas desenvolveu um modelo político baseado na participação dos cidadãos.</p>
             </div>
-
 
             <div class="card-evento">
                 <h4>Queda do Império Romano</h4>
-                <p>476 d.C.</p>
+                <p>476 d.C. — Marca simbolicamente o fim da Antiguidade e o início da Idade Média na Europa.</p>
             </div>
         </section>
 
-
+        <!-- IDADE MÉDIA -->
         <section id="medieval">
             <h2>⚔️ Idade Média (476 d.C. - 1453/1492)</h2>
-            <p>Período marcado pelo feudalismo e cruzadas...</p>
+            <p>Período de feudalismo, formação de reinos, expansões religiosas e transformações culturais profundas.</p>
+
+            <h3>Eventos Chave</h3>
+
+            <div class="card-evento">
+                <h4>Ascensão do Feudalismo</h4>
+                <p>Séculos VIII–X — Sistema político, social e econômico baseado na terra e nas relações de dependência.</p>
+            </div>
+
+            <div class="card-evento">
+                <h4>Cruzadas</h4>
+                <p>1096–1291 — Expedições militares cristãs à Terra Santa, com grande impacto cultural e econômico.</p>
+            </div>
+
+            <div class="card-evento">
+                <h4>Queda de Constantinopla</h4>
+                <p>1453 — Tomada pelos turcos otomanos, marcando o fim do Império Bizantino e da Idade Média.</p>
+            </div>
         </section>
 
-
+        <!-- IDADE MODERNA -->
         <section id="moderna">
             <h2>🧭 Idade Moderna (1453/1492 - 1789)</h2>
-            <p>Renascimento, Reforma e expansão marítima...</p>
+            <p>Período marcado pelo Renascimento, pelas revoluções científicas e pela expansão ultramarina europeia.</p>
+
+            <h3>Eventos Chave</h3>
+
+            <div class="card-evento">
+                <h4>Renascimento Cultural</h4>
+                <p>Séculos XIV–XVI — Renovação artística e científica baseada no humanismo e nos valores clássicos.</p>
+            </div>
+
+            <div class="card-evento">
+                <h4>Expansão Marítima Europeia</h4>
+                <p>Desde 1492 — Navegações que resultaram em descobertas de novos territórios e mudanças globais.</p>
+            </div>
+
+            <div class="card-evento">
+                <h4>Revolução Científica</h4>
+                <p>Séculos XVI–XVII — Avanços como heliocentrismo e método científico transformaram a ciência moderna.</p>
+            </div>
         </section>
 
-
+        <!-- IDADE CONTEMPORÂNEA -->
         <section id="contemporanea">
             <h2>🚀 Idade Contemporânea (1789 - Presente)</h2>
-            <p>Indústria, guerras mundiais e tecnologia...</p>
+            <p>Fase de profundas transformações políticas, sociais e tecnológicas que moldam o mundo atual.</p>
+
+            <h3>Eventos Chave</h3>
+
+            <div class="card-evento">
+                <h4>Revolução Francesa</h4>
+                <p>1789 — Mudou definitivamente a política ocidental com o ideal de liberdade, igualdade e fraternidade.</p>
+            </div>
+
+            <div class="card-evento">
+                <h4>Revolução Industrial</h4>
+                <p>Séculos XVIII–XIX — Avanço das máquinas, fábricas e urbanização, transformando o trabalho e a economia.</p>
+            </div>
+
+            <div class="card-evento">
+                <h4>Era da Tecnologia</h4>
+                <p>Século XX–XXI — Computadores, internet e inteligência artificial redefinem a vida humana.</p>
+            </div>
         </section>
 
-
-        <!-- BOTÃO PARA A OUTRA PÁGINA -->
+        <!-- BOTÃO PARA PRÓXIMA PÁGINA -->
         <a href="civilizacoes.html" class="botao-proxima-pagina">
             ➜ Acessar Próxima Página
         </a>
 
-
     </main>
-
 
     <footer>
         <p>&copy; 2025 História Global | Um projeto de código aberto.</p>
     </footer>
-
 
 </body>
 </html>
